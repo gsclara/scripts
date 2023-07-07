@@ -5,6 +5,7 @@
 # due to discretization in CFD applications, Celik et al. 2008"
 # For 3D: h = 1/N*sum(1,N)(ΔVi)^(1/3)
 # where ΔVi is the volume, and N is the total number of cells used for the computations
+# phi = field of interest
 # Last Modified: 05/07/2022
 import numpy as np
 from GCI import *
